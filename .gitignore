@@ -9,3 +9,5 @@ build/
 _Resharper.*/
 AssemblyInfo.cs
 *.user
+x64/
+x86/
