@@ -11,3 +11,6 @@ AssemblyInfo.cs
 *.user
 x64/
 x86/
+test/
+*.opensdf
+*.sdf
