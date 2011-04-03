@@ -69,7 +69,7 @@ namespace DxApplication
             outStreamIndex.Close();
 
             _effect = Effect.FromFile(device, @"C:\Users\karli\Documents\Visual Studio 2010\Projects\DxApplications\DxApplication\Shader\SimpleRendering.fx",
-                "fx_4_0", ShaderFlags.None, EffectFlags.None, null, null);
+                "fx_4_0", ShaderFlags.None, EffectFlags.None);
             _effectTechnique = _effect.GetTechniqueByIndex(0);
             _effectPass = _effectTechnique.GetPassByIndex(0);
             _transformVariable = _effect.GetVariableByName("WorldViewProj").AsMatrix();
