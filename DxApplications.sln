@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SlimDX", "..\..\work\Logicx
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Effects11", "..\..\work\Logicx\code\slimdx\external\Effects11\Effects11.vcxproj", "{DF460EAB-570D-4B50-9089-2E2FC801BF38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreEngine", "..\CoreEngine\CoreEngine.csproj", "{A1EC440C-7E3A-402E-A8E2-299134A40ED8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -187,6 +189,48 @@ Global
 		{DF460EAB-570D-4B50-9089-2E2FC801BF38}.Release-4.0|x64.ActiveCfg = Release-4.0|x64
 		{DF460EAB-570D-4B50-9089-2E2FC801BF38}.Release-4.0|x64.Build.0 = Release-4.0|x64
 		{DF460EAB-570D-4B50-9089-2E2FC801BF38}.Release-4.0|x86.ActiveCfg = Release-4.0|x64
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|Any CPU.Build.0 = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|Mixed Platforms.Build.0 = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|Win32.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|x64.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Debug-4.0|x86.ActiveCfg = Debug|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|Any CPU.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|Mixed Platforms.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|Win32.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|x64.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public|x86.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|Any CPU.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|Mixed Platforms.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|Win32.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|x64.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Public-4.0|x86.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|Win32.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|Any CPU.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|Mixed Platforms.Build.0 = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|Win32.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|x64.ActiveCfg = Release|Any CPU
+		{A1EC440C-7E3A-402E-A8E2-299134A40ED8}.Release-4.0|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
