@@ -1,8 +1,0 @@
-﻿<Window x:Class="DxApplication.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:ii="clr-namespace:DxApplication" Title="MainWindow" Height="400" Width="400" Loaded="Window_Loaded" SizeChanged="Window_SizeChanged" Closed="Window_Closed">
-    <Grid>
-        <ii:D3DImageControl x:Name="m_slimDxControl" MouseDown="m_slimDxControl_MouseDown"/>
-    </Grid>
-</Window>
