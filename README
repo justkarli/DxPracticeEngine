@@ -3,3 +3,4 @@ This project is a practical playground for me to learn managed directx with the 
 The goal is to build my own practical engine step by step using c# as programming language to learn by
 practice how an engine can work and later, how special rendering effects work. 
 
+External lib which is needed to build the project (SlimDx) is already in the repo. 
